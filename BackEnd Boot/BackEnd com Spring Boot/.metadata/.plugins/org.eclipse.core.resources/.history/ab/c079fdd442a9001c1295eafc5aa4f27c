@@ -1,0 +1,5 @@
+package com.site.agencia;
+
+public interface EscolhaVoo {
+
+}

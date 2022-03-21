@@ -1,0 +1,5 @@
+package com.site.agencia.repositorys;
+
+public interface Pagamento {
+
+}

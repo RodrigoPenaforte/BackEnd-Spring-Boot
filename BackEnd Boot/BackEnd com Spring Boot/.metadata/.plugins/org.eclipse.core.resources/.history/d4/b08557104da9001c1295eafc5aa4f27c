@@ -1,0 +1,5 @@
+package com.site.agencia.entities;
+
+public class Pagamento {
+
+}

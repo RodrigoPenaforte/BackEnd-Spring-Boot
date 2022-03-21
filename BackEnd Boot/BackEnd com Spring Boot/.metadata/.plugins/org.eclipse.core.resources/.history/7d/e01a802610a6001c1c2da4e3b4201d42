@@ -1,0 +1,32 @@
+package com.site.agencia;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.site.agencia.entities.Login;
+import com.site.agencia.repositorys.LoginRepository;
+
+@SpringBootApplication
+public class AgenciaApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AgenciaApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Login a1 = new Login(0,null, "Rodrigo Dias");
+		Login a2 = new Login(0,null,"12387623498");
+		
+		LoginRepository.save(a1);
+		LoginRepository.save(a2);
+
+		
+		
+		
+	}
+
+}

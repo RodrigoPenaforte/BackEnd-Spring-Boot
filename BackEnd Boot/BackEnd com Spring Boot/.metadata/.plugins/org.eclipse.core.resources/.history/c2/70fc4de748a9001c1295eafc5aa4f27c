@@ -1,0 +1,5 @@
+package com.site.agencia.controllers;
+
+public class Pagamento {
+
+}
